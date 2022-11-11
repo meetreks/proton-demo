@@ -129,7 +129,7 @@ Resources:
           VPCRegion: !Ref AWS::Region        
 
 # These output values are will be available to service templates, given the
-# the 'environment' namespace, for example, environment.outputs.ClusterName.
+# the 'environment' namespace, for example, environment.outputs.ClusterName.!!!!
 Outputs:
   ContainerSecurityGroup:
     Description: Container Security group
