@@ -1,0 +1,11 @@
+proton: ServiceSpec
+instances:
+  - name: gitsync-instance
+    environment: multi-svc-beta
+    spec:
+      port: 80
+      desired_count: 1
+      task_size: x-small
+      scope: private
+      image: 'public.ecr.aws/z9d2n7e1/nginx:1.19.5'
+      env_vars: ''
