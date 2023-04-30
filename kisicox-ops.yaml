@@ -1,0 +1,6 @@
+sync:
+  services:
+    gitsync:
+      gitsync-instance:
+        branch: main
+        spec: gitsyncdemo/service-spec.yaml
