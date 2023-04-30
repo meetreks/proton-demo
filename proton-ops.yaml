@@ -1,0 +1,12 @@
+sync:
+  services:
+    frontend-svc:
+      test:
+        branch: dev
+        spec: ./frontend-svc/test/frontend-spec.yaml
+      staging:
+        branch: main
+        spec: ./frontend-svc/staging/frontend-spec.yaml
+      production:
+        branch: main
+        spec: ./frontend-svc/production/frontend-spec.yaml
